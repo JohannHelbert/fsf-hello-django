@@ -1,0 +1,19 @@
+{
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}
+
+"scripts": {
+    "dev": "react-scripts start",
+    "start": "serve -s build",
+    "build": "react-scripts build",
+    "test": "react-scripts test --env=jsdom",
+    "eject": "react-scripts eject",
+    "heroku-postbuild": "npm run build"
+}
+The reason I was facing this error is that I haven’t really deployed the code, it was running build version of it.
+
+More errors that are straightforward are explained well in this article.
+
+
