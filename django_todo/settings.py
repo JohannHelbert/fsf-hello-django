@@ -87,7 +87,7 @@ WSGI_APPLICATION = 'django_todo.wsgi.application'
 #}
 
 DATABASE = {
-    'default': dj_database_url.parse(os.environ.get('postgres://boxqycuk:sqCvtP1oypGWRDk0AA_AD8rjslueDvb3@flora.db.elephantsql.com/boxqycuk'))
+    'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
 }
 
 
